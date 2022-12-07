@@ -69,12 +69,12 @@
       </div>
       
         <input type="submit" name="submit_form" value="отправить" />
-                     
+?>                     
         
         
 
     </section>
     <div class = 'spacer layer'></div>
-?>    
+    
 </body>
 </html>
