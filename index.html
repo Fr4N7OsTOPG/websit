@@ -44,7 +44,7 @@
 </head>
 <body>
     <?php
-    if (isset($_GET['submit_form'])) {
+    if (isset($_GET['Send'])) {
         echo "Привет".$_GET['name']."!""</br>";
         echo .$_GET['message']."!";    
     }
@@ -68,7 +68,7 @@
         <input name="message">
       </div>
       
-        <button>Send</button>
+        <input type="submit" name="submit_form" value="отправить" />
         
         
 
