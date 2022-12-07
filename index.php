@@ -48,7 +48,7 @@
         echo "Привет,".$_GET['name']."!";
         echo "Давай дружить".$_GET['message']."!";    
     }
-
+?>
     <section>
         <h1>Rekruto! Давай дружить!</h1>
         <p>
@@ -69,7 +69,7 @@
       </div>
       
         <input type="submit" name="submit_form" value="отправить" />
-?>                     
+                    
         
         
 
