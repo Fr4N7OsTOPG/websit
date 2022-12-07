@@ -43,7 +43,12 @@
 
 </head>
 <body>
-    
+    <?php
+    if (isset($_GET['submit_form'])) {
+        echo "Привет".$_GET['name']."!""</br>";
+        echo .$_GET['message']."!";    
+    }
+?>
     <section>
         <h1>Rekruto! Давай дружить!</h1>
         <p>
